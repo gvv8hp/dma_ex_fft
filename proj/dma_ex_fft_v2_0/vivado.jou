@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2015.1 (64-bit)
+# SW Build 1215546 on Mon Apr 27 19:22:08 MDT 2015
+# IP Build 1209967 on Tue Apr 21 11:39:20 MDT 2015
+# Start of session at: Mon Apr 27 01:05:28 2020
+# Process ID: 45256
+# Log file: C:/Users/ghomi/OneDrive/Documents/FPGA/dma_ex_fft/proj/dma_ex_fft_v2_0/vivado.log
+# Journal file: C:/Users/ghomi/OneDrive/Documents/FPGA/dma_ex_fft/proj/dma_ex_fft_v2_0\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ghomi/OneDrive/Documents/FPGA/dma_ex_fft/proj/dma_ex_fft_v2_0/dma_ex_fft_v2_0.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1

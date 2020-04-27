@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../dma_ex_fft_v2_0.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../dma_ex_fft_v2_0.srcs/sources_1/bd/design_1/ipshared/8c62/hdl" --include "C:/Xilinx/Vivado/2019.1/data/xilinx_vip/include" \
+"../../../../dma_ex_fft_v2_0.srcs/sources_1/ipshared/b340/project_1.srcs/sources_1/imports/lib/edge_detect.v" \
+"../../../../dma_ex_fft_v2_0.ip_user_files/bd/design_1/ip/design_1_edge_detect_0_0/sim/design_1_edge_detect_0_0.v" \
+"../../../../dma_ex_fft_v2_0.ip_user_files/bd/design_1/ip/design_1_xlconcat_0_0/sim/design_1_xlconcat_0_0.v" \
+"../../../../dma_ex_fft_v2_0.ip_user_files/bd/design_1/ip/design_1_processing_system7_0_0/sim/design_1_processing_system7_0_0.v" \
+"../../../../dma_ex_fft_v2_0.ip_user_files/bd/design_1/ip/design_1_xbar_2/sim/design_1_xbar_2.v" \
+"../../../../dma_ex_fft_v2_0.ip_user_files/bd/design_1/ip/design_1_xbar_3/sim/design_1_xbar_3.v" \
+"../../../../dma_ex_fft_v2_0.ip_user_files/bd/design_1/ip/design_1_auto_pc_0/sim/design_1_auto_pc_0.v" \
+"../../../../dma_ex_fft_v2_0.ip_user_files/bd/design_1/ip/design_1_auto_pc_1/sim/design_1_auto_pc_1.v" \
+"../../../../dma_ex_fft_v2_0.ip_user_files/bd/design_1/sim/design_1.v" \
+"../../../../dma_ex_fft_v2_0.srcs/sources_1/imports/hdl/design_1_wrapper.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

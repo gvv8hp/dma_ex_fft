@@ -1,0 +1,26 @@
+INFO: [Common 17-701] A license check has taken more than 10 seconds to complete. This may indicate that there is a performance issue with one or more license servers listed in XILINXD_LICENSE_FILE or LM_LICENSE_FILE, or that the license servers are just not responding at all. Try setting the FLEXLM_DIAGNOSTICS environment variable to 3 and running Vivado again to get more information.
+#-----------------------------------------------------------
+# Vivado v2015.1 (64-bit)
+# SW Build 1215546 on Mon Apr 27 19:22:08 MDT 2015
+# IP Build 1209967 on Tue Apr 21 11:39:20 MDT 2015
+# Start of session at: Mon Apr 27 01:05:28 2020
+# Process ID: 45256
+# Log file: C:/Users/ghomi/OneDrive/Documents/FPGA/dma_ex_fft/proj/dma_ex_fft_v2_0/vivado.log
+# Journal file: C:/Users/ghomi/OneDrive/Documents/FPGA/dma_ex_fft/proj/dma_ex_fft_v2_0\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ghomi/OneDrive/Documents/FPGA/dma_ex_fft/proj/dma_ex_fft_v2_0/dma_ex_fft_v2_0.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ghomi/OneDrive/Documents/FPGA/dma_ex_fft/lib'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.1/data/ip'.
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'set_property' was cancelled
+INFO: [Common 17-344] 'set_property' was cancelled
+INFO: [Common 17-344] 'open_project' was cancelled
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 27 01:05:50 2020...

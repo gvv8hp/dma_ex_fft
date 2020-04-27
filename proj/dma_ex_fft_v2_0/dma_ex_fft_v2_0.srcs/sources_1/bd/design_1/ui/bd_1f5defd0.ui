@@ -1,0 +1,25 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 4 -x 1190 -y 70 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 4 -x 1190 -y 100 -defaultsOSRD
+preplace inst accelerator -pg 1 -lvl 1 -x 200 -y 140 -defaultsOSRD
+preplace inst ctrl -pg 1 -lvl 2 -x 530 -y 150 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 3 -x 930 -y 150 -defaultsOSRD
+preplace netloc axi_gpio_0_gpio_io_o 1 0 3 20 40 NJ 40 680
+preplace netloc ctrl_dma_irqs 1 2 1 690 150n
+preplace netloc edge_detect_0_edge_detected 1 0 3 40 240 NJ 240 680
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 3 380 320 NJ 320 1150
+preplace netloc processing_system7_0_fclk_clk0 1 0 4 40 50 360 50 700 310 1160
+preplace netloc ctrl_M_AXI_DMA_DATA 1 2 1 N 130
+preplace netloc axi_dma_0_m_axis_mm2s 1 0 3 30 30 NJ 30 690
+preplace netloc s00_axi_1 1 1 3 370 300 NJ 300 1170
+preplace netloc xfft_0_m_axis_data 1 1 1 N 140
+preplace netloc processing_system7_0_fixed_io 1 3 1 NJ 100
+preplace netloc processing_system7_0_ddr 1 3 1 1170J 70n
+levelinfo -pg 1 0 200 530 930 1190
+pagesize -pg 1 -db -bbox -sgen 0 0 1300 330
+"
+}
+0
